@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Removals -->
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_native" /> 
+
+
+  <!-- Device -->
+  <project name="team-infusion-developers/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" revision="16.0-sensors" clone-depth="1" />
+  <project name="Sonic-sakthivel123/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="lineage-16.0-dev" clone-depth="1" />
+
+  <!-- Kernel -->
+  <project name="team-infusion-developers/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="16.0-sensors" clone-depth="1" />
+
+  <!-- Vendor -->
+  <project name="team-infusion-developers/proprietary_vendor_samsung_n7100" path="vendor/samsung" remote="github" revision="16.0-manta-gps" clone-depth="1" />
+  
+  <!-- Extras -->
+  <project name="team-infusion-developers/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-16.0" />
+  <project name="team-infusion-developers/android_frameworks_native" path="frameworks/native" remote="github" revision="lineage-16.0" />
+  <project name="team-infusion-developers/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-16.0" />  
+
+</manifest>

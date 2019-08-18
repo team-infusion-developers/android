@@ -640,7 +640,7 @@
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
 
   <include name="snippets/lineage.xml" />
-  <include name="snippets/i9300.xml" />
+  <include name="snippets/n7100.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
